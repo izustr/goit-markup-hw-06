@@ -560,6 +560,7 @@ footer {
 .footer-flex {
 	display: flex;
 	align-items: baseline;
+	justify-content: space-between;
 }
 .footer-div {
 	margin-right: 70px;
@@ -643,7 +644,7 @@ footer {
 }
 .input-btn-div {
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 	align-items: center;
 }
 .btn-icon-send {
