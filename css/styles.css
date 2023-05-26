@@ -739,7 +739,7 @@ label:nth-last-child(3) {
 	transition-timing-function: var(--cubic-bezier);
 }
 .input-wrap:hover,
-.input-wrap:focus,
+.input-wrap:focus-within,
 .data-form-input:hover,
 .data-form-input:focus {
 	fill: var(--light-blue);
@@ -760,6 +760,12 @@ label:nth-last-child(3) {
 	margin-top: 4px;
 	color: rgba(117, 117, 117, 0.5);
 	resize: none;
+}
+.comment::placeholder {
+	font-size: 12px;
+	line-height: 1.17;
+	letter-spacing: 0.01em;
+	color: rgba(117, 117, 117, 0.5);
 }
 .checkbox-form {
 	display: block;
