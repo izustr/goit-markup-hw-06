@@ -737,6 +737,7 @@ label:nth-last-child(3) {
 	transition-property: border-color;
 	transition-duration: 250ms;
 	transition-timing-function: var(--cubic-bezier);
+	outline: transparent;
 }
 .input-wrap:hover,
 .input-wrap:focus-within,
